@@ -1,0 +1,102 @@
+* {
+  margin: auto auto;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(42, 42, 42);
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 20%;
+  margin: 1.2em auto;
+}
+
+header > p {
+  background-color: rgba(255, 246, 124, 0.235);
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  border-top: 2px solid rgb(255, 222, 124);
+  color: green;
+}
+
+p span {
+  font-weight: bold;
+  color: green;
+}
+
+main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: justify;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+
+article img {
+  margin-top: 1.1em;
+  width: 100%;
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px rgba(88, 88, 88, 0.619);
+}
+
+figcaption {
+  text-align: center;
+  color: lightgrey;
+  margin: 1.5em auto;
+}
+
+#featured {
+  border-left: rgb(255, 222, 124) solid;
+  text-indent: 1.2em;
+  margin-bottom: 2em;
+}
+
+#featured h3 {
+  color: orange;
+  font-size: 1.2em;
+}
+
+a {
+  color: green;
+}
+
+main h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+hr {
+  border: 0.05em solid lightblue;
+  margin-top: 1.15em;
+  margin-bottom: 1.15em;
+}
+
+#content p {
+  font-weight: bold;
+}
+
+#content ul {
+  line-height: 2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+#content li {
+  text-indent: 1.1em;
+}
+
+li p:first-child {
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
+
+#reference {
+  margin: 1.5em auto;
+}
