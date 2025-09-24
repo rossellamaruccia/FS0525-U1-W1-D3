@@ -45,8 +45,6 @@ article video {
   border-radius: 2%;
   box-shadow: 10px 10px 10px rgba(88, 88, 88, 0.619);
 }
-/* questo stile */
-
 
 figcaption {
   text-align: center;
@@ -54,13 +52,13 @@ figcaption {
   margin: 1.5em auto;
 }
 
-#featured {
+.featured {
   border-left: rgb(255, 222, 124) solid;
   text-indent: 1.2em;
   margin-bottom: 2em;
 }
 
-#featured h3 {
+.featured h3 {
   color: orange;
   font-size: 1.2em;
 }
@@ -80,17 +78,17 @@ hr {
   margin-bottom: 1.15em;
 }
 
-#content p {
+.content p {
   font-weight: bold;
 }
 
-#content ul {
+.content ul {
   line-height: 2em;
   margin-top: 1.2em;
   margin-bottom: 1.2em;
 }
 
-#content li {
+.content li {
   text-indent: 1.1em;
 }
 
@@ -99,6 +97,6 @@ li p:first-child {
   margin-bottom: 1.2em;
 }
 
-#reference {
+.reference {
   margin: 1.5em auto;
 }
