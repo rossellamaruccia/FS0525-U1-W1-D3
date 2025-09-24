@@ -15,8 +15,7 @@ header img {
 
 header > p {
   background-color: rgba(255, 246, 124, 0.235);
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
+  padding: 1.25em;
   border-top: 2px solid rgb(255, 222, 124);
   color: green;
 }
@@ -28,9 +27,7 @@ p span {
 
 main {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+  margin: 2em auto;
   text-align: justify;
 }
 
@@ -74,8 +71,7 @@ main h2 {
 
 hr {
   border: 0.05em solid lightblue;
-  margin-top: 1.15em;
-  margin-bottom: 1.15em;
+  margin: 1.15em auto;
 }
 
 .content p {
@@ -84,8 +80,7 @@ hr {
 
 .content ul {
   line-height: 2em;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
+  margin: 1.2em;
 }
 
 .content li {
