@@ -39,12 +39,14 @@ main h1 {
   margin-bottom: 1.25em;
 }
 
-article img {
+article video {
   margin-top: 1.1em;
   width: 100%;
   border-radius: 2%;
   box-shadow: 10px 10px 10px rgba(88, 88, 88, 0.619);
 }
+/* questo stile */
+
 
 figcaption {
   text-align: center;
